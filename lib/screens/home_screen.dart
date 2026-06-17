@@ -15,7 +15,7 @@ import 'admin/tambah_kuliner_screen.dart';
 const kPrimary = Color(0xFF7F2020);
 const kSecondary = Color(0xFF869B7E);
 const kSurface = Color(0xFFC9CAAC);
-const kBackground = Color(0xFFF6F3EB);
+const kBackground = Color(0xFFF6F3EB); // udah diatur lagi soalnya lebih cocok ini warnanya -Rafi
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -27,10 +27,10 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   static const List<Map<String, dynamic>> _banners = [
     {
-      'emoji': '🍛',
+      'emoji': '🍛', 
       'title': 'Kuliner Nusantara',
-      'sub': 'Jelajahi Seluruh Kuliner Nusantara !!!',
-      'color': Color(0xFF7F2020),
+      'sub': 'Jelajahi Seluruh Kuliner Nusantara !!!', 
+      'color': Color(0xFF7F2020), // warna nya udah ku edit (lagi) -Rafi
     },
   ];
 
